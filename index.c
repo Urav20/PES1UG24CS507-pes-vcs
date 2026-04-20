@@ -114,7 +114,6 @@ int index_status(const Index *index) {
                     break;
                 }
             }
-            
             if (!is_tracked) {
                 struct stat st;
                 stat(ent->d_name, &st);
